@@ -1,5 +1,4 @@
-
-
+import { ethers } from 'ethers'
 
 export const deploy = async (contractName: string, args: Array<any>, from?: string): Promise<any> => {    
 
